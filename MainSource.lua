@@ -1063,7 +1063,7 @@ end)
 
 prints("Loaded GUI")
 
-Functions.Map = loadstring(game:HttpGet(MainLink.."TDS/Functions/Map.lua", true))()
+Functions.Map = loadstring(game:HttpGet("https://raw.githubusercontent.com/SkremGah/Strategies-X/refs/heads/main/TDS/Functions/Map.lua", true))()
 Functions.Loadout = loadstring(game:HttpGet(MainLink.."TDS/Functions/Loadout.lua", true))()
 Functions.Mode = loadstring(game:HttpGet(MainLink.."TDS/Functions/Mode.lua", true))()
 Functions.Place = loadstring(game:HttpGet(MainLink.."TDS/Functions/Place.lua", true))()
